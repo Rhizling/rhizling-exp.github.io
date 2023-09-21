@@ -1,3 +1,36 @@
-body {
-  color: blue;
+.bio-text {
+  color: purple;
+  text-align: center;
+}
+
+.bio-img {
+  height:25%;
+  width:25%;
+  overflow: hidden;
+  border-radius: 100%
+}
+
+.bio {
+  background-color: aqua;
+  text-align: center;
+  height:50%;
+  width:50%
+}
+
+#terminal {
+  text-align: center
+}
+
+.middle-row {
+  display: flex;
+  justify-content:center;
+  align-items: center
+}
+
+.background .accomplishments {
+  align-self: center;
+}
+
+.experience .other {
+  transform: rotate(-90deg)
 }
