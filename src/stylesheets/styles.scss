@@ -1,36 +1,86 @@
+html, body {
+  height:100%
+}
+
 .bio-text {
   color: purple;
   text-align: center;
 }
 
 .bio-img {
-  height:25%;
-  width:25%;
+  height: 50%;
+  width: 50%;
   overflow: hidden;
   border-radius: 100%
 }
 
 .bio {
-  background-color: aqua;
+  background-color: #E7ECEF;
   text-align: center;
   height:50%;
-  width:50%
+  width:50%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-#terminal {
+.everything {
+  height: 100%;
+  background: #6096BA
+}
+
+.header {
+  background: #274C77;
+  height: 10%;
+  width: 100%;
+}
+
+.footer {
+  background: #274C77;
+  height: 10%;
+  width: 100%;
+}
+
+.terminal {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.left-column {
+  display: flex;
+  align-items: center;
+}
+
+.middle-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center
+}
+
+.right-column {
+  display: flex;
+  align-items: center;
+}
+
+.experience-text {
   text-align: center
 }
 
-.middle-row {
-  display: flex;
-  justify-content:center;
-  align-items: center
+.accomplishments-text {
+  text-align: center;
 }
 
 .background .accomplishments {
   align-self: center;
 }
 
+p {
+  color: #274c77;
+}
+
 .experience .other {
-  transform: rotate(-90deg)
+  transform: rotate(-90deg);
 }
