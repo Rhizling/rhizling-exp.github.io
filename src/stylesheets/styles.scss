@@ -102,6 +102,7 @@ body,html {
 h1 {
   color: #374C77;
   font-size: 3vh;
+  text-decoration: underline;
 }
 
 h2 {
@@ -372,15 +373,24 @@ p {
 }
 
 .experience-container {
+  flex: 2;
   height: 100%;
   width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  align-items: center;
+  overflow-y: auto;
 }
 
 .experience-header {
   text-align: center;
+  margin-top: 5%;
+}
+
+.experience-timeline {
+  margin-bottom: 14%;
+  margin-right: 5%;
+  align-items: center;
 }
 
 .expandable-content {
@@ -413,3 +423,26 @@ p {
 .summary {
   text-align: center;;
 }
+
+.experience-everything {
+  height: 100%;
+  background:#6096BA;
+  display: flex;
+  flex-direction: row;
+}
+
+.experience-return {
+  flex: 0.3;
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-right: 5px solid #274C77;
+}
+
+.experience-ordering {
+  display: flex;
+  flex-direction: column;
+}
+
+
